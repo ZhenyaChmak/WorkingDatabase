@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_menu"
+    app:startDestination="@id/data">
+
+    <fragment android:id="@+id/data"
+        tools:layout="@layout/fragment_list_database"
+        android:name="com.example.workingdatabase.fragment.DatabaseListFragment"/>
+
+    <fragment android:id="@+id/operations"
+        tools:layout="@layout/fragment_operations_database"
+        android:name="com.example.workingdatabase.fragment.DatabaseOperationsFragment"/>
+
+</navigation>
