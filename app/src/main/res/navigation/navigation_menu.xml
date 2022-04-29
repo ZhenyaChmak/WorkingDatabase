@@ -5,12 +5,14 @@
     android:id="@+id/navigation_menu"
     app:startDestination="@id/data">
 
-    <fragment android:id="@+id/data"
-        tools:layout="@layout/fragment_list_database"
-        android:name="com.example.workingdatabase.fragment.DatabaseListFragment"/>
+    <fragment
+        android:id="@+id/data"
+        android:name="com.example.workingdatabase.fragment.ListUserFragment"
+        tools:layout="@layout/fragment_user_list" />
 
-    <fragment android:id="@+id/operations"
-        tools:layout="@layout/fragment_operations_database"
-        android:name="com.example.workingdatabase.fragment.DatabaseOperationsFragment"/>
+    <fragment
+        android:id="@+id/operations"
+        android:name="com.example.workingdatabase.fragment.OperationsListUserFragment"
+        tools:layout="@layout/fragment_user_list_operations" />
 
 </navigation>
