@@ -6,13 +6,13 @@ import androidx.room.Room
 
 class WorkingDatabase : Application() {
 
-    private var _appdatabase: AppDatabase? = null
-    val appDatabase get() = requireNotNull(_appdatabase)
+    private var _appDatabase: AppDatabase? = null
+    val appDatabase get() = requireNotNull(_appDatabase)
 
     override fun onCreate() {
         super.onCreate()
 
-        _appdatabase = Room.databaseBuilder(
+        _appDatabase = Room.databaseBuilder(
             this,
             AppDatabase::class.java,
             "app-database"
@@ -23,7 +23,7 @@ class WorkingDatabase : Application() {
 }
 
 val Context.appDatabase: AppDatabase
-    get() = when {
-        this is WorkingDatabase -> appDatabase
+    get() = when (this) {
+        is WorkingDatabase -> appDatabase
         else -> applicationContext.appDatabase
     }

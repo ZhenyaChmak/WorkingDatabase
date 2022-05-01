@@ -11,13 +11,16 @@
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/drawable/ic_search.xml" value="0.20520833333333333" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/activity_main.xml" value="0.175" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_container.xml" value="0.1" />
+        <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_dialog.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_list_database.xml" value="0.25" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_operations_database.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_room_user.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user.xml" value="0.1890625" />
+        <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user_container.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user_list.xml" value="0.1" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user_list_container.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user_list_operations.xml" value="0.1890625" />
+        <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/fragment_user_operations.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/layout/operations_database.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/menu/menu_fragments.xml" value="0.1890625" />
         <entry key="..\:/study/projects/Workingdatabase/app/src/main/res/menu/menu_toolbar.xml" value="0.1890625" />

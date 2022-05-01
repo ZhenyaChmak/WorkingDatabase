@@ -1,10 +1,11 @@
-package com.example.workingdatabase
+package com.example.workingdatabase.decoration
 
 import android.content.Context
 import android.graphics.Canvas
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
+import com.example.workingdatabase.R
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator
 
 abstract class SwipeToDelete(context: Context) :

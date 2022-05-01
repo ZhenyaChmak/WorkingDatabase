@@ -12,7 +12,7 @@
 
     <fragment
         android:id="@+id/operations"
-        android:name="com.example.workingdatabase.fragment.OperationsListUserFragment"
-        tools:layout="@layout/fragment_user_list_operations" />
+        android:name="com.example.workingdatabase.fragment.OperationsUserFragment"
+        tools:layout="@layout/fragment_user_operations" />
 
 </navigation>

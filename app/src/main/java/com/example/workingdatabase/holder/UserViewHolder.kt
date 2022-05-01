@@ -6,14 +6,13 @@ import com.example.workingdatabase.model.User
 
 class UserViewHolder(
     private val binding: FragmentUserBinding,
-    private val click: () -> Unit
+    private val onClick: (User) -> Unit
 ) : RecyclerView.ViewHolder(binding.root) {
-
     fun bind(user: User) {
         binding.userName.text = user.name.toString()
 
-        binding.root.setOnClickListener(){
-            click()
+        binding.edit.setOnClickListener() {
+            onClick(user)
         }
     }
 

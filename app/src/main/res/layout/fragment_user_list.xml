@@ -15,11 +15,6 @@
         app:menu="@menu/menu_toolbar"
         app:title="@string/data" />
 
-    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-        android:id="@+id/swipe_refresh_list_users"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/list_users"
             android:layout_width="match_parent"
@@ -27,6 +22,5 @@
             android:clipToPadding="false"
             android:padding="10dp"
             tools:listitem="@layout/fragment_user" />
-    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 </LinearLayout>

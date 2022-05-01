@@ -10,5 +10,5 @@ data class User(
     val id: Int = 0,
 
     @ColumnInfo(name = "name")
-    val name: String?
+    var name: String?
 )
