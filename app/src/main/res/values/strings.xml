@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Working database</string>
+    <string name="app_name">Working Database</string>
+    <string name="operations">Operations</string>
+    <string name="list">List</string>
+    <string name="data">Data</string>
+    <string name="search">Search</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="editing">Editing</string>
+    <string name="add">Add</string>
+    <string name="name">name</string>
+    <string name="add_user">User added</string>
+    <string name="changed_user">User changed</string>
+    <string name="delete_user">User deleted</string>
+
 </resources>

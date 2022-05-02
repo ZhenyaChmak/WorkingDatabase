@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/operations"
+        android:icon="@drawable/ic_operations"
+        android:title="@string/operations" />
+
+    <item
+        android:id="@+id/data"
+        android:icon="@drawable/ic_database"
+        android:title="@string/data" />
+
+</menu>

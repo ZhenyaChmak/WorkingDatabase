@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/container_user_list">
+
+    <fragment
+        android:id="@+id/container_user_list"
+        android:name="com.example.workingdatabase.fragment.ContainerUserFragment"
+        tools:layout="@layout/fragment_user_container" />
+
+</navigation>
